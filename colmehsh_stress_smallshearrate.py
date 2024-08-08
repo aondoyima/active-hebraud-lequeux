@@ -1,15 +1,11 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 16 21:50:01 2024
-
-@author: deems
-"""
 
 from getdata import getdata
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
+import os
+
+os.makedirs('./plots', exist_ok=True)
 
 lowerlim = -5
 upperlim = 2
