@@ -3,6 +3,9 @@ from getdata import getdata
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
+import os
+
+os.makedirs('./plots', exist_ok=True)
 
 #Folder name where the data is stored is labelled according to the parameters of log spacing 
 lowerlim = -5
