@@ -3,6 +3,9 @@ from hebraud_lequeux import hebraud_lequeux
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
+import os
+
+os.makedirs('./plots', exist_ok=True)
 
 #Fixed parameters
 Gpass = 1.
