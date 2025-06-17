@@ -2,7 +2,7 @@
 Calculation of the stress in a disordered material made up of active and passive units. The model here is a two species version of the [Hebraud-Lequex Model](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.81.2934), which models the flow of very concentrated suspensions of soft particles, e.g. thick paint. 
 
 ## How to use
-Run the stress calculation using "run_hl.sh" and use "colmesh..." or "curves..." for analysis. 
+Select parameters and run the stress calculation using "run_hl.sh" and use "colmesh..." or "curves..." for analysis. 
 
 ## Packages needed outside of Python's standard library
 - [NumPy](https://numpy.org/) is the standard package for scientific computing with Python
