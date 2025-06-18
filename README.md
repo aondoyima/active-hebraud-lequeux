@@ -1,4 +1,4 @@
-# Active-Hebraud-Lequeux
+# Two speices active elasto-plastic model
 Calculation of the stress in a disordered material made up of active and passive units. The model here is a two species version of the [Hebraud-Lequex Model](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.81.2934), which models the flow of very concentrated suspensions of soft particles, e.g. thick paint. 
 
 ## How to use
