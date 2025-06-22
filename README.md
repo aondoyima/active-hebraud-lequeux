@@ -18,7 +18,9 @@ where $\tau$ is the time scale of a single plastic event. The parameter $\alpha$
 The code here calculates solutions to the stationary solution $\partial_tP_k = 0$, which gives rise to a second order differential equation for each block type, which can be solved assuming a fixed but unknown $D$. The active and passive blocks are coupled by the fact that the effective diffusion is constant throughout the material. Once we have solved for $P_k(\sigma)$ in terms of $D$, we require that $\int_{-\infty}^{\infty} (P_0 + P_1) \,d\sigma = 1$, and combine this with the self-consistency requirement to obtain an implicit equation for $D$ (details in paper soon to be available on arXiv). 
 
 ## How to use 
-Select parameters and run the stress calculation using "run_hl.sh" and use "colmesh..." or "curves..." for analysis. [Here](example_figs/example_fig1.pdf) are examples of plots that were generated with the code and labelled in [Inkscape](https://inkscape.org/doc/tutorials/basic/tutorial-basic.html)
+Select parameters and run the stress calculation using "run_hl.sh" and use "colmesh..." or "curves..." for analysis. [Here](example_figs/example_fig1.pdf) are examples of plots that were generated with the code and labelled in [Inkscape](https://inkscape.org/doc/tutorials/basic/tutorial-basic.html).
+
+![Examples](example_figs/example_fig1.pdf)
 
 ## Dependencies and Packages
 Outside of the packages in the standard python library, you will need these:
