@@ -20,7 +20,7 @@ The code here calculates solutions to the stationary solution $\partial_tP_k = 0
 ## How to use 
 Select parameters and run the stress calculation using "run_hl.sh" and use "colmesh..." or "curves..." for analysis. [Here](example_figs/example_fig1.pdf) are examples of plots that were generated with the code and labelled in [Inkscape](https://inkscape.org/doc/tutorials/basic/tutorial-basic.html).
 
-![Examples](example_figs/example_fig1.pdf)
+![Examples](example_figs/example_fig1.png)
 
 ## Dependencies and Packages
 Outside of the packages in the standard python library, you will need these:
